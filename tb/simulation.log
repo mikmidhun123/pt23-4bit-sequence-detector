@@ -1,0 +1,26 @@
+VCD info: dumpfile dump.vcd opened for output.
+t=16000  din=0  detected=0
+t=26000  din=0  detected=0
+t=36000  din=1  detected=0
+t=46000  din=0  detected=0
+t=56000  din=1  detected=0
+t=66000  din=1  detected=1
+t=76000  din=0  detected=0
+t=86000  din=1  detected=0
+t=96000  din=1  detected=1
+t=106000  din=0  detected=0
+t=116000  din=1  detected=0
+t=126000  din=1  detected=1
+t=136000  din=0  detected=0
+t=146000  din=1  detected=0
+t=156000  din=0  detected=0
+t=166000  din=1  detected=0
+t=176000  din=1  detected=1
+t=186000  din=1  detected=0
+t=196000  din=0  detected=0
+t=206000  din=0  detected=0
+t=216000  din=1  detected=0
+t=226000  din=0  detected=0
+t=236000  din=1  detected=0
+t=246000  din=1  detected=1
+testbench.sv:36: $finish called at 266000 (1ps)

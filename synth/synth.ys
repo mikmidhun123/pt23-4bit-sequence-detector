@@ -1,0 +1,5 @@
+read_verilog rtl/design.sv
+hierarchy -check -top seq_detector
+proc; opt; fsm; opt; memory; opt; techmap; opt; abc; opt_clean; stat
+write_verilog -noattr synth/seq_detector_netlist.v
+show -format dot -prefix synth/seq_detector_schematic
