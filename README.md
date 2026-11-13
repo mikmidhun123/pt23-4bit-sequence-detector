@@ -253,9 +253,12 @@ pt23-4bit-sequence-detector/
 │   └── yosys_diagram.png              # Complete gate-level circuit schematic
 ├── docs/
 │   ├── report.docx                    # Final formatted project report (Word)
-│   └── report.pdf                     # Final formatted project report (PDF, 25 pages)
+│   ├── report.pdf                     # Final formatted project report (PDF, 25 pages)
+│   ├── PT23_4bit_Sequence_Detector_Presentation.pptx # Final presentation slide deck
+│   └── PT23_4bit_Sequence_Detector_Presentation.pdf  # Final presentation slides (PDF)
 └── scripts/
     ├── build_and_align_report.py      # Automated 2-pass DOCX/PDF synchronizer
+    ├── generate_moore_presentation.py # 12-slide executive presentation builder
     ├── render_epwave.py               # Waveform rendering script
     ├── generate_fsm_diagrams.py       # Architecture diagram generator
     └── run_local_synth.py             # Local synthesis driver
@@ -290,7 +293,9 @@ yosys synth/synth.ys
 
 ---
 
-## 📄 Documentation Deliverables
-The complete project report is compiled in both Microsoft Word and PDF formats:
-* **PDF Report:** [`docs/report.pdf`](docs/report.pdf)
-* **Word Document:** [`docs/report.docx`](docs/report.docx)
+## 📄 Documentation & Presentation Deliverables
+The complete project documentation and presentation deck are compiled in both PDF and source formats:
+* **Project Report (PDF):** [`docs/report.pdf`](docs/report.pdf)
+* **Project Report (Word DOCX):** [`docs/report.docx`](docs/report.docx)
+* **Presentation Slides (PDF):** [`docs/PT23_4bit_Sequence_Detector_Presentation.pdf`](docs/PT23_4bit_Sequence_Detector_Presentation.pdf)
+* **Presentation Slides (PPTX):** [`docs/PT23_4bit_Sequence_Detector_Presentation.pptx`](docs/PT23_4bit_Sequence_Detector_Presentation.pptx)
